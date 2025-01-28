@@ -13,13 +13,16 @@
 	</main>
 
 	<footer>
-		<p>
+		<!-- <p>
 			visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to learn about SvelteKit
-		</p>
+		</p> -->
 	</footer>
 </div>
 
 <style>
+	:global(body) {
+            background: rgb(17 24 39);
+    }
 	.app {
 		display: flex;
 		flex-direction: column;
