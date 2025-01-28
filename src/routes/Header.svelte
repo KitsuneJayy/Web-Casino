@@ -19,14 +19,14 @@
 			<li aria-current={page.url.pathname === '/' ? 'page' : undefined}>
 				<a href="/">Home</a>
 			</li>
-			<li aria-current={page.url.pathname === '/about' ? 'page' : undefined}>
+			<!-- <li aria-current={page.url.pathname === '/about' ? 'page' : undefined}>
 				<a href="/about">About</a>
 			</li>
 			<li aria-current={page.url.pathname.startsWith('/sverdle') ? 'page' : undefined}>
 				<a href="/sverdle">Sverdle</a>
-			</li>
-			<li aria-current={page.url.pathname === '/setting' ? 'page' : undefined}>
-				<a href="/setting">Setting</a>
+			</li> -->
+			<li aria-current={page.url.pathname === '/card-game' ? 'page' : undefined}>
+				<a href="/card-game">Game</a>
 			</li>
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
@@ -69,7 +69,8 @@
 	nav {
 		display: flex;
 		justify-content: center;
-		--background: rgba(255, 255, 255, 0.7);
+		--background: rgb(17 24 39);
+		--color-text: white;
 	}
 
 	svg {
